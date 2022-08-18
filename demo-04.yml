@@ -10,4 +10,5 @@ steps:
 
 - task: Bash@3
   inputs:
-    filePath: 'ls -lap'
+    targetType: 'inline'
+    script: ls -lap
